@@ -47,6 +47,7 @@ cov = [
   "test-cov",
   "cov-report",
 ]
+fantasy_basketball = "python src/fantasy_basketball/__main__.py"
 
 [[tool.hatch.envs.all.matrix]]
 python = ["3.11", "3.12"]
