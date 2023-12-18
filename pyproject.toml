@@ -21,7 +21,9 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = []
+dependencies = [
+  "pydantic-settings>=2.1",
+]
 
 [project.urls]
 Documentation = "https://github.com/tyurban/fantasy-basketball#readme"
